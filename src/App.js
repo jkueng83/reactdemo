@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import SuperButton from './conponents/SuperButton';
 
 function App() {
   return (
     <div className="App">
+      <h1>Meine (JK) erste React App</h1>
+      <SuperButton/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+
       </header>
     </div>
   );
