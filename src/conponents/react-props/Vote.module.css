@@ -1,0 +1,14 @@
+.card{
+    margin: 15px;
+    padding:  5px;
+    color: rgb(63, 62, 62);
+    background-color: aqua;
+    min-height: 50px;
+    width: 400px;
+}
+
+.card:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow: 10px 10px 3px rgb(6, 31, 11);
+}
