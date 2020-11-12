@@ -24,10 +24,12 @@ function App() {
       <Button/>
       <Card/>
       <h2>React Props am Beispiel Votes</h2>
+      <div class="container">
       <Vote candidate="Sepp" address="Dornbirn"/>
       <Vote candidate="Julia" address="Wien"/>
       <Vote candidate="Kein Wohnort" />
       <Vote candidate="Thomas" address="Egg"/>
+      </div>
       <p>hier ist mein Teil fertig</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
