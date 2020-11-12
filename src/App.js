@@ -5,6 +5,8 @@ import ButtonRow from './conponents/ButtonRow';
 import List from './conponents/aufgabe-komponenten/List';
 import Button from './conponents/aufgabe-komponenten/Button';
 import Card from './conponents/aufgabe-komponenten/Card';
+import Vote from './conponents/react-props/Vote';
+
 
 
 
@@ -21,6 +23,11 @@ function App() {
       <List/>
       <Button/>
       <Card/>
+      <h2>React Props am Beispiel Votes</h2>
+      <Vote candidate="Sepp" address="Dornbirn"/>
+      <Vote candidate="Julia" address="Wien"/>
+      <Vote candidate="Kein Wohnort" />
+      <Vote candidate="Thomas" address="Egg"/>
       <p>hier ist mein Teil fertig</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
