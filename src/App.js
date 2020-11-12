@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import SuperButton from './conponents/SuperButton';
 import ButtonRow from './conponents/ButtonRow';
+import List from './conponents/aufgabe-komponenten/List';
+import Button from './conponents/aufgabe-komponenten/Button';
+import Card from './conponents/aufgabe-komponenten/Card';
+
+
 
 function App() {
   return (
@@ -12,6 +17,10 @@ function App() {
       <ButtonRow/>
       <ButtonRow/>
       <ButtonRow/>
+      <h2>Aufgabe Komponenten</h2>
+      <List/>
+      <Button/>
+      <Card/>
       <p>hier ist mein Teil fertig</p>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

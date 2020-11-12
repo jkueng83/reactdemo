@@ -1,0 +1,11 @@
+.listelement{
+    background-color: rgba(0, 128, 128, 0.404);
+    margin: 5px;
+    width: 25%;
+    list-style-type: none;
+    
+}
+.listelement:hover{
+    background-color: rgba(0, 128, 128, 0.637);
+    box-shadow: 3px 3px 2px grey;    
+}

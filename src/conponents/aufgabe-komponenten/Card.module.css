@@ -1,0 +1,30 @@
+.card {
+  width: 300px;
+  box-shadow: 5px 5px 5px grey;
+  margin: 10px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 5px rgb(73, 73, 73);
+}
+
+.cardimage {
+  width: 300px;
+}
+
+.textbox {
+  padding: 10px;
+  text-align: left;
+}
+
+.name {
+  font-size: x-large;
+  font-weight: bold;
+
+  align-content: flex-start;
+}
+
+.position {
+  font-size: large;
+  align-content: flex-start;
+}
